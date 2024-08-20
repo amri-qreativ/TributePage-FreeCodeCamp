@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(marvel-comics.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+    line-height: 25px;
+}
+
+#main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#title, #img-div, h3, h4 {
+    text-align: center;
+}
+
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#tribute-info {
+    margin: 30px;
+    padding: 20px;
+}
+
+ul {
+    margin: 30px 50px 40px 50px;
+    padding: 30px;
+}
+
+blockquote {
+    margin: 40px 30px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-size: large;
+    font-style: italic;
+}
+
+h4 a {
+    text-decoration: none;
+    color: yellow;
+}
